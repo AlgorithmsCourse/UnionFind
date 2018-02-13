@@ -1,12 +1,13 @@
 ﻿namespace UnionFind
 {
-    public class UnionFind
+    public class QuickUnion
+
     {   //indexes are the sites, N sites total
         //values at each index point to parent index, leading to the root
         private int[] _arr;
         private int _count;
 
-        public UnionFind(int N)
+        public QuickUnion(int N)
         {
             _count = N;
             _arr = new int[N];
